@@ -10,7 +10,7 @@ do
 {
     n = get_int("Grandezza desiderata: ");
 }
-while (n < 1);
+while (n < 1 || n > 8);
 m = n;
 for (int i = 0; i < n; i++)
 {
